@@ -1,7 +1,8 @@
 #!/bin/bash
 
-echo "open $1 80" 
-sleep 3 
-echo "GET /" 
+echo "open $1 $2" 
+sleep 1 
+echo "GET $3" 
+echo "Accept: */*" 
 echo 
-sleep 3
+sleep 1
