@@ -16,6 +16,8 @@ public class App {
       // multiple times
       URL url = new URL("http://localhost:3000/posts");
 
+      /* POST REQUEST */
+
       // create and open a connection of type HttpURLConnection so we can
       // send a POST request to add data to the dummy json server
       HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
@@ -23,6 +25,7 @@ public class App {
       // save the json as a string and then convert it into byte type
       // to transfer the data in the header in the POST request
       byte[] dataJson = "{\n\"title\": \"my-server2\",\n \"author\": \"smc181002\" \n}".getBytes("utf-8"); 
+
       urlConnection.setRequestMethod("POST");
       // set the content length
       urlConnection.setFixedLengthStreamingMode(dataJson.length);
@@ -40,6 +43,8 @@ public class App {
 
       // end the connection after the response is received
       urlConnection.disconnect();
+
+      /* GET REQUEST */
 
       // create a new connection for sending a GET request
       HttpURLConnection urlConnection1 = (HttpURLConnection) url.openConnection();
@@ -68,6 +73,36 @@ public class App {
 
       // disconnect after completing the request
       urlConnection1.disconnect();
+
+      /* PUT REQUEST */
+
+      byte[] dataJsonUpdate = "{\n \"id\": \"1\",\n \"title\": \"my-server4\",\n \"author\": \"kayaba\" \n}".getBytes("utf-8"); 
+      // select the post url with id in path
+      URL urlPut = new URL("http://localhost:3000/posts/1");
+      HttpURLConnection urlConnection2 = (HttpURLConnection) urlPut.openConnection();
+      urlConnection2.setRequestMethod("PUT");
+      // set the content length
+      urlConnection2.setFixedLengthStreamingMode(dataJsonUpdate.length);
+      // set the content type to application.json and use utf-8 as 
+      // the json stored in jsonData is encoded with utf-8
+      urlConnection2.setRequestProperty("Content-Type", "application/json; charset=UTF-8");
+      // enabling the option to send data
+      urlConnection2.setDoOutput(true);
+
+      try(OutputStream os = urlConnection2.getOutputStream()) {
+        os.write(dataJsonUpdate, 0 , dataJsonUpdate.length);
+      }
+
+      System.out.println(urlConnection2.getResponseMessage());
+      System.out.println("Response status-line for POST: " + urlConnection2.getResponseCode());
+
+      /* DELETE REQUEST */
+      URL urlDelete = new URL("http://localhost:3000/posts/2");
+      HttpURLConnection urlConnection3 = (HttpURLConnection) urlDelete.openConnection();
+      urlConnection3.setRequestMethod("DELETE");
+      System.out.println(urlConnection3.getResponseMessage());
+      System.out.println("Response status-line for POST: " + urlConnection3.getResponseCode());
+
     } catch (MalformedURLException e) {
       e.printStackTrace();
     } catch (IOException e) {
