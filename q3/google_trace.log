@@ -1,0 +1,315 @@
+== Info:   Trying 142.250.205.228:80...
+== Info: TCP_NODELAY set
+== Info: Connected to www.google.com (142.250.205.228) port 80 (#0)
+=> Send header, 78 bytes (0x4e)
+0000: GET / HTTP/1.1
+0010: Host: www.google.com
+0026: User-Agent: curl/7.68.0
+003f: Accept: */*
+004c: 
+== Info: Mark bundle as not supporting multiuse
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 37 bytes (0x25)
+0000: Date: Thu, 26 Aug 2021 05:09:08 GMT
+<= Recv header, 13 bytes (0xd)
+0000: Expires: -1
+<= Recv header, 35 bytes (0x23)
+0000: Cache-Control: private, max-age=0
+<= Recv header, 45 bytes (0x2d)
+0000: Content-Type: text/html; charset=ISO-8859-1
+<= Recv header, 69 bytes (0x45)
+0000: P3P: CP="This is not a P3P policy! See g.co/p3phelp for more inf
+0040: o."
+<= Recv header, 13 bytes (0xd)
+0000: Server: gws
+<= Recv header, 21 bytes (0x15)
+0000: X-XSS-Protection: 0
+<= Recv header, 29 bytes (0x1d)
+0000: X-Frame-Options: SAMEORIGIN
+<= Recv header, 109 bytes (0x6d)
+0000: Set-Cookie: 1P_JAR=2021-08-26-05; expires=Sat, 25-Sep-2021 05:09
+0040: :08 GMT; path=/; domain=.google.com; Secure
+<= Recv header, 270 bytes (0x10e)
+0000: Set-Cookie: NID=222=ZMzB3OlptWcKseHqOV62IETKC0F6QzVZ_HcUVbFVlJEa
+0040: E4ZOnibXrgcxMmLZ6Hdmu9Iy4q_ImHbJldS6WEs1B03AyGZRX6wdm5DOIY2PDPIu
+0080: XBS7bn2lh9KXvjsIxikD1lDZ-xzWWntOJ22zsSAy8tGrkBXGjxtzg1jkqDuZtM4;
+00c0:  expires=Fri, 25-Feb-2022 05:09:08 GMT; path=/; domain=.google.c
+0100: om; HttpOnly
+<= Recv header, 21 bytes (0x15)
+0000: Accept-Ranges: none
+<= Recv header, 23 bytes (0x17)
+0000: Vary: Accept-Encoding
+<= Recv header, 28 bytes (0x1c)
+0000: Transfer-Encoding: chunked
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 7460 bytes (0x1d24)
+0000: 3ecd
+0006: <!doctype html><html itemscope="" itemtype="http://schema.org/We
+0046: bPage" lang="en-IN"><head><meta content="text/html; charset=UTF-
+0086: 8" http-equiv="Content-Type"><meta content="/logos/doodles/2021/
+00c6: doodle-champion-island-games-august-26-6753651837109002-l.png" i
+0106: temprop="image"><meta content="Doodle Champion Island Games!" pr
+0146: operty="twitter:title"><meta content="Feline up for a challenge?
+0186:  Help Lucky claim victory in the Doodle Champion Island Games! #
+01c6: GoogleDoodle" property="twitter:description"><meta content="Feli
+0206: ne up for a challenge? Help Lucky claim victory in the Doodle Ch
+0246: ampion Island Games! #GoogleDoodle" property="og:description"><m
+0286: eta content="summary_large_image" property="twitter:card"><meta 
+02c6: content="@GoogleDoodles" property="twitter:site"><meta content="
+0306: https://www.google.com/logos/doodles/2021/doodle-champion-island
+0346: -games-august-26-6753651837109002-2xa.gif" property="twitter:ima
+0386: ge"><meta content="https://www.google.com/logos/doodles/2021/doo
+03c6: dle-champion-island-games-august-26-6753651837109002-2xa.gif" pr
+0406: operty="og:image"><meta content="644" property="og:image:width">
+0446: <meta content="392" property="og:image:height"><meta content="ht
+0486: tps://www.google.com/logos/doodles/2021/doodle-champion-island-g
+04c6: ames-august-26-6753651837109002-2xa.gif" property="og:url"><meta
+0506:  content="video.other" property="og:type"><title>Google</title><
+0546: script nonce="62Un+AmiaTd+sghVc/LDLA==">(function(){window.googl
+0586: e={kEI:'9CEnYduJGo_W5OUPvZGnoA8',kEXPI:'0,202342,569873,1,530320
+05c6: ,56873,954,5105,206,4804,2316,383,246,5,1354,5250,1122516,119778
+0606: 6,497,328984,51224,8161,7953,28684,893,16679,4858,1362,284,9007,
+0646: 3027,3890,857,12834,4020,978,13228,3847,10622,1141,7512,5874,236
+0686: ,4285,2774,919,2370,3596,708,1279,2212,241,289,149,1103,840,6297
+06c6: ,108,4012,2023,2297,14670,3227,1990,855,7,4808,7546,5096,7540,53
+0706: 73,3407,908,2,3555,3424,9718,3,576,1014,1,5445,148,11323,2652,4,
+0746: 1252,276,2304,1236,5226,577,74,1983,2626,2015,4067,7434,3824,305
+0786: 0,2658,872,3371,3114,30,15933,638,1494,5586,3772,7428,651,5155,2
+07c6: 551,992,3102,17,3121,6,613,295,3,3541,1,14713,1811,283,38,874,59
+0806: 92,14659,765,23,1281,1344,371,2,3036,21,5548,30,1204,3,33,3,5388
+0846: ,3,684,784,255,55,3,435,4057,126,618,1274,1536,3042,1576,3,471,7
+0886: 270,1143,1160,1269,5140,290,2379,2721,3482,1063,3,125,3921,1427,
+08c6: 4635,586,628,1962,464,2,2,5,5783,1163,32,314,426,1932,190,2445,1
+0906: 385,2395,1926,553,3,4422,943,1264,898,946,2,5,707,49,539,712,2,2
+0946: ,798,769,8,3453,1161,1090,17,2,194,97,173,141,58,4,168,649,260,1
+0986: ,510,476,31,276,159,9,503,902,327,823,1,219,30,253,967,328,935,5
+09c6: 70,784,775,5584448,3892,226,220,85,31,30,135,5996588,2800696,882
+0a06: ,444,1,2,80,1,1796,1,9,2553,1,748,936,4,559,1,4265,1,1,2,1331,41
+0a46: 42,2609,155,17,13,72,139,4,2,20,2,169,13,19,46,5,39,96,548,29,2,
+0a86: 2,1,2,1,2,2,7,4,1,2,2,2,2,2,2,353,513,186,1,1,158,3,2,2,2,2,2,4,
+0ac6: 2,3,3,269,234,2,1,1,7,15,23,8,18,1,2,4,25,23954381,4041352,276,6
+0b06: 2,3,2414,445,2,560,78,406,9,2259,1579,640,5,294',kBL:'qA29'};goo
+0b46: gle.sn='webhp';google.kHL='en-IN';})();(function(){.var f=this||
+0b86: self;var h,k=[];function l(a){for(var b;a&&(!a.getAttribute||!(b
+0bc6: =a.getAttribute("eid")));)a=a.parentNode;return b||h}function m(
+0c06: a){for(var b=null;a&&(!a.getAttribute||!(b=a.getAttribute("leid"
+0c46: )));)a=a.parentNode;return b}.function n(a,b,c,d,g){var e="";c||
+0c86: -1!==b.search("&ei=")||(e="&ei="+l(d),-1===b.search("&lei=")&&(d
+0cc6: =m(d))&&(e+="&lei="+d));d="";!c&&f._cshid&&-1===b.search("&cshid
+0d06: =")&&"slh"!==a&&(d="&cshid="+f._cshid);c=c||"/"+(g||"gen_204")+"
+0d46: ?atyp=i&ct="+a+"&cad="+b+e+"&zx="+Date.now()+d;/^http:/i.test(c)
+0d86: &&"https:"===window.location.protocol&&(google.ml&&google.ml(Err
+0dc6: or("a"),!1,{src:c,glmm:1}),c="");return c};h=google.kEI;google.g
+0e06: etEI=l;google.getLEI=m;google.ml=function(){return null};google.
+0e46: log=function(a,b,c,d,g){if(c=n(a,b,c,d,g)){a=new Image;var e=k.l
+0e86: ength;k[e]=a;a.onerror=a.onload=a.onabort=function(){delete k[e]
+0ec6: };a.src=c}};google.logUrl=n;}).call(this);(function(){.google.y=
+0f06: {};google.sy=[];google.x=function(a,b){if(a)var c=a.id;else{do c
+0f46: =Math.random();while(google.y[c])}google.y[c]=[a,b];return!1};go
+0f86: ogle.sx=function(a){google.sy.push(a)};google.lm=[];google.plm=f
+0fc6: unction(a){google.lm.push.apply(google.lm,a)};google.lq=[];googl
+1006: e.load=function(a,b,c){google.lq.push([[a],b,c])};google.loadAll
+1046: =function(a,b){google.lq.push([a,b])};google.bx=!1;google.lx=fun
+1086: ction(){};}).call(this);google.f={};(function(){.document.docume
+10c6: ntElement.addEventListener("submit",function(b){var a;if(a=b.tar
+1106: get){var c=a.getAttribute("data-submitfalse");a="1"==c||"q"==c&&
+1146: !a.elements.q.value?!0:!1}else a=!1;a&&(b.preventDefault(),b.sto
+1186: pPropagation())},!0);document.documentElement.addEventListener("
+11c6: click",function(b){var a;a:{for(a=b.target;a&&a!=document.docume
+1206: ntElement;a=a.parentElement)if("A"==a.tagName){a="1"==a.getAttri
+1246: bute("data-nohref");break a}a=!1}a&&b.preventDefault()},!0);}).c
+1286: all(this);</script><style>#gbar,#guser{font-size:13px;padding-to
+12c6: p:1px !important;}#gbar{height:22px}#guser{padding-bottom:7px !i
+1306: mportant;text-align:right}.gbh,.gbd{border-top:1px solid #c9d7f1
+1346: ;font-size:1px}.gbh{height:0;position:absolute;top:24px;width:10
+1386: 0%}@media all{.gb1{height:22px;margin-right:.5em;vertical-align:
+13c6: top}#gbar{float:left}}a.gb1,a.gb4{text-decoration:underline !imp
+1406: ortant}a.gb1,a.gb4{color:#00c !important}.gbi .gb4{color:#dd8e27
+1446:  !important}.gbf .gb4{color:#900 !important}.</style><style>body
+1486: ,td,a,p,.h{font-family:arial,sans-serif}body{margin:0;overflow-y
+14c6: :scroll}#gog{padding:3px 8px 0}td{line-height:.8em}.gac_m td{lin
+1506: e-height:17px}form{margin-bottom:20px}.h{color:#1558d6}em{font-w
+1546: eight:bold;font-style:normal}.lst{height:25px;width:496px}.gsfi,
+1586: .lst{font:18px arial,sans-serif}.gsfs{font:17px arial,sans-serif
+15c6: }.ds{display:inline-box;display:inline-block;margin:3px 0 4px;ma
+1606: rgin-left:4px}input{font-family:inherit}body{background:#fff;col
+1646: or:#000}a{color:#4b11a8;text-decoration:none}a:hover,a:active{te
+1686: xt-decoration:underline}.fl a{color:#1558d6}a:visited{color:#4b1
+16c6: 1a8}.sblc{padding-top:5px}.sblc a{display:block;margin:2px 0;mar
+1706: gin-left:13px;font-size:11px}.lsbb{background:#f8f9fa;border:sol
+1746: id 1px;border-color:#dadce0 #70757a #70757a #dadce0;height:30px}
+1786: .lsbb{display:block}#WqQANb a{display:inline-block;margin:0 12px
+17c6: }.lsb{background:url(/images/nav_logo229.png) 0 -261px repeat-x;
+1806: border:none;color:#000;cursor:pointer;height:30px;margin:0;outli
+1846: ne:0;font:15px arial,sans-serif;vertical-align:top}.lsb:active{b
+1886: ackground:#dadce0}.lst:focus{outline:none}</style><script nonce=
+18c6: "62Un+AmiaTd+sghVc/LDLA=="></script></head><body bgcolor="#fff">
+1906: <script nonce="62Un+AmiaTd+sghVc/LDLA==">(function(){var src='/i
+1946: mages/nav_logo229.png';var iesg=false;document.body.onload = fun
+1986: ction(){window.n && window.n();if (document.images){new Image().
+19c6: src=src;}.if (!iesg){document.f&&document.f.q.focus();document.g
+1a06: bqf&&document.gbqf.q.focus();}.}.})();</script><div id="mngb"><d
+1a46: iv id=gbar><nobr><b class=gb1>Search</b> <a class=gb1 href="http
+1a86: ://www.google.co.in/imghp?hl=en&tab=wi">Images</a> <a class=gb1 
+1ac6: href="http://maps.google.co.in/maps?hl=en&tab=wl">Maps</a> <a cl
+1b06: ass=gb1 href="https://play.google.com/?hl=en&tab=w8">Play</a> <a
+1b46:  class=gb1 href="http://www.youtube.com/?gl=IN&tab=w1">YouTube</
+1b86: a> <a class=gb1 href="https://news.google.com/?tab=wn">News</a> 
+1bc6: <a class=gb1 href="https://mail.google.com/mail/?tab=wm">Gmail</
+1c06: a> <a class=gb1 href="https://drive.google.com/?tab=wo">Drive</a
+1c46: > <a class=gb1 style="text-decoration:none" href="https://www.go
+1c86: ogle.co.in/intl/en/about/products?tab=wh"><u>More</u> &raquo;</a
+1cc6: ></nobr></div><div id=guser width=100%><nobr><span id=gbn class=
+1d06: gbi></span><span id=gbf class=
+<= Recv data, 4096 bytes (0x1000)
+0000: gbf></span><span id=gbe></span><a href="http://www.google.co.in/
+0040: history/optout?hl=en" class=gb4>Web History</a> | <a  href="/pre
+0080: ferences?hl=en" class=gb4>Settings</a> | <a target=_top id=gb_70
+00c0:  href="https://accounts.google.com/ServiceLogin?hl=en&passive=tr
+0100: ue&continue=http://www.google.com/&ec=GAZAAQ" class=gb4>Sign in<
+0140: /a></nobr></div><div class=gbh style=left:0></div><div class=gbh
+0180:  style=right:0></div></div><center><br clear="all" id="lgpd"><di
+01c0: v id="lga"><a href="/search?ie=UTF-8&amp;q=Paralympics&amp;oi=dd
+0200: le&amp;ct=174787766&amp;hl=en-GB&amp;si=AHuW2sT-QI6yLdyEfUBJHlK3
+0240: UbYl5IMFaEVy5cpr0uPqDA9_otVXb9ripiHnz-EX5hXZ_jIa8ESKopokBeQtHfj9
+0280: KzxO6Dw9kGEpQWJxyyGVK2B-ksVRRB0%3D&amp;sa=X&amp;ved=0ahUKEwjb0-_
+02c0: u9c3yAhUPK7kGHb3ICfQQPQgD"><img alt="Doodle Champion Island Game
+0300: s!" border="0" height="196" src="/logos/doodles/2021/doodle-cham
+0340: pion-island-games-august-26-6753651837109002-l.png" title="Doodl
+0380: e Champion Island Games!" width="322" id="hplogo"><br></a><br></
+03c0: div><form action="/search" name="f"><table cellpadding="0" cells
+0400: pacing="0"><tr valign="top"><td width="25%">&nbsp;</td><td align
+0440: ="center" nowrap=""><input name="ie" value="ISO-8859-1" type="hi
+0480: dden"><input value="en-IN" name="hl" type="hidden"><input name="
+04c0: source" type="hidden" value="hp"><input name="biw" type="hidden"
+0500: ><input name="bih" type="hidden"><div class="ds" style="height:3
+0540: 2px;margin:4px 0"><input class="lst" style="margin:0;padding:5px
+0580:  8px 0 6px;vertical-align:top;color:#000" autocomplete="off" val
+05c0: ue="" title="Google Search" maxlength="2048" name="q" size="57">
+0600: </div><br style="line-height:0"><span class="ds"><span class="ls
+0640: bb"><input class="lsb" value="Google Search" name="btnG" type="s
+0680: ubmit"></span></span><span class="ds"><span class="lsbb"><input 
+06c0: class="lsb" id="tsuid1" value="I'm Feeling Lucky" name="btnI" ty
+0700: pe="submit"><script nonce="62Un+AmiaTd+sghVc/LDLA==">(function()
+0740: {var id='tsuid1';document.getElementById(id).onclick = function(
+0780: ){if (this.form.q.value){this.checked = 1;if (this.form.iflsig)t
+07c0: his.form.iflsig.disabled = false;}.else top.location='/doodles/'
+0800: ;};})();</script><input value="AINFCbYAAAAAYScwBCfnLlagunFS_UiQ1
+0840: Rj_20j9ZXj_" name="iflsig" type="hidden"></span></span></td><td 
+0880: class="fl sblc" align="left" nowrap="" width="25%"><a href="/adv
+08c0: anced_search?hl=en-IN&amp;authuser=0">Advanced search</a></td></
+0900: tr></table><input id="gbv" name="gbv" type="hidden" value="1"><s
+0940: cript nonce="62Un+AmiaTd+sghVc/LDLA==">(function(){.var a,b="1";
+0980: if(document&&document.getElementById)if("undefined"!=typeof XMLH
+09c0: ttpRequest)b="2";else if("undefined"!=typeof ActiveXObject){var 
+0a00: c,d,e=["MSXML2.XMLHTTP.6.0","MSXML2.XMLHTTP.3.0","MSXML2.XMLHTTP
+0a40: ","Microsoft.XMLHTTP"];for(c=0;d=e[c++];)try{new ActiveXObject(d
+0a80: ),b="2"}catch(h){}}a=b;if("2"==a&&-1==location.search.indexOf("&
+0ac0: gbv=2")){var f=google.gbvu,g=document.getElementById("gbv");g&&(
+0b00: g.value=a);f&&window.setTimeout(function(){location.href=f},0)};
+0b40: }).call(this);</script></form><div id="gac_scont"></div><div sty
+0b80: le="font-size:83%;min-height:3.5em"><br><div id="gws-output-page
+0bc0: s-elements-homepage_additional_languages__als"><style>#gws-outpu
+0c00: t-pages-elements-homepage_additional_languages__als{font-size:sm
+0c40: all;margin-bottom:24px}#SIvCob{color:#3c4043;display:inline-bloc
+0c80: k;line-height:28px;}#SIvCob a{padding:0 3px;}.H6sW5{display:inli
+0cc0: ne-block;margin:0 2px;white-space:nowrap}.z4hgWe{display:inline-
+0d00: block;margin:0 2px}</style><div id="SIvCob">Google offered in:  
+0d40: <a href="http://www.google.com/setprefs?sig=0_WPkgd5k6reIn8OJyt8
+0d80: _QGU5tKok%3D&amp;hl=hi&amp;source=homepage&amp;sa=X&amp;ved=0ahU
+0dc0: KEwjb0-_u9c3yAhUPK7kGHb3ICfQQ2ZgBCAU">&#2361;&#2367;&#2344;&#238
+0e00: 1;&#2342;&#2368;</a>    <a href="http://www.google.com/setprefs?
+0e40: sig=0_WPkgd5k6reIn8OJyt8_QGU5tKok%3D&amp;hl=bn&amp;source=homepa
+0e80: ge&amp;sa=X&amp;ved=0ahUKEwjb0-_u9c3yAhUPK7kGHb3ICfQQ2ZgBCAY">&#
+0ec0: 2476;&#2494;&#2434;&#2482;&#2494;</a>    <a href="http://www.goo
+0f00: gle.com/setprefs?sig=0_WPkgd5k6reIn8OJyt8_QGU5tKok%3D&amp;hl=te&
+0f40: amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjb0-_u9c3yAhUPK7kGHb
+0f80: 3ICfQQ2ZgBCAc">&#3108;&#3142;&#3122;&#3137;&#3095;&#3137;</a>   
+0fc0:  <a href="http://www.google.com/setprefs?sig=0_WPkgd5k6reIn8OJyt
+<= Recv data, 4096 bytes (0x1000)
+0000: 8_QGU5tKok%3D&amp;hl=mr&amp;source=homepage&amp;sa=X&amp;ved=0ah
+0040: UKEwjb0-_u9c3yAhUPK7kGHb3ICfQQ2ZgBCAg">&#2350;&#2352;&#2366;&#23
+0080: 36;&#2368;</a>    <a href="http://www.google.com/setprefs?sig=0_
+00c0: WPkgd5k6reIn8OJyt8_QGU5tKok%3D&amp;hl=ta&amp;source=homepage&amp
+0100: ;sa=X&amp;ved=0ahUKEwjb0-_u9c3yAhUPK7kGHb3ICfQQ2ZgBCAk">&#2980;&
+0140: #2990;&#3007;&#2996;&#3021;</a>    <a href="http://www.google.co
+0180: m/setprefs?sig=0_WPkgd5k6reIn8OJyt8_QGU5tKok%3D&amp;hl=gu&amp;so
+01c0: urce=homepage&amp;sa=X&amp;ved=0ahUKEwjb0-_u9c3yAhUPK7kGHb3ICfQQ
+0200: 2ZgBCAo">&#2711;&#2753;&#2716;&#2736;&#2750;&#2724;&#2752;</a>  
+0240:   <a href="http://www.google.com/setprefs?sig=0_WPkgd5k6reIn8OJy
+0280: t8_QGU5tKok%3D&amp;hl=kn&amp;source=homepage&amp;sa=X&amp;ved=0a
+02c0: hUKEwjb0-_u9c3yAhUPK7kGHb3ICfQQ2ZgBCAs">&#3221;&#3240;&#3277;&#3
+0300: 240;&#3233;</a>    <a href="http://www.google.com/setprefs?sig=0
+0340: _WPkgd5k6reIn8OJyt8_QGU5tKok%3D&amp;hl=ml&amp;source=homepage&am
+0380: p;sa=X&amp;ved=0ahUKEwjb0-_u9c3yAhUPK7kGHb3ICfQQ2ZgBCAw">&#3374;
+03c0: &#3378;&#3375;&#3390;&#3379;&#3330;</a>    <a href="http://www.g
+0400: oogle.com/setprefs?sig=0_WPkgd5k6reIn8OJyt8_QGU5tKok%3D&amp;hl=p
+0440: a&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjb0-_u9c3yAhUPK7kG
+0480: Hb3ICfQQ2ZgBCA0">&#2602;&#2672;&#2588;&#2622;&#2604;&#2624;</a> 
+04c0:  </div></div></div><span id="footer"><div style="font-size:10pt"
+0500: ><div style="margin:19px auto;text-align:center" id="WqQANb"><a 
+0540: href="/intl/en/ads/">Advertising.Programs</a><a href="http://www
+0580: .google.co.in/services/">Business Solutions</a><a href="/intl/en
+05c0: /about.html">About Google</a><a href="http://www.google.com/setp
+0600: refdomain?prefdom=IN&amp;prev=http://www.google.co.in/&amp;sig=K
+0640: _ZfFRitWM40Uz7zMfg9ri8KyqAJc%3D">Google.co.in</a></div></div><p 
+0680: style="font-size:8pt;color:#70757a">&copy; 2021 - <a href="/intl
+06c0: /en/policies/privacy/">Privacy</a> - <a href="/intl/en/policies/
+0700: terms/">Terms</a></p></span></center><script nonce="62Un+AmiaTd+
+0740: sghVc/LDLA==">(function(){window.google.cdo={height:757,width:14
+0780: 40};(function(){.var a=window.innerWidth,b=window.innerHeight;if
+07c0: (!a||!b){var c=window.document,d="CSS1Compat"==c.compatMode?c.do
+0800: cumentElement:c.body;a=d.clientWidth;b=d.clientHeight}a&&b&&(a!=
+0840: google.cdo.width||b!=google.cdo.height)&&google.log("","","/clie
+0880: nt_204?&atyp=i&biw="+a+"&bih="+b+"&ei="+google.kEI);}).call(this
+08c0: );})();</script> <script nonce="62Un+AmiaTd+sghVc/LDLA==">(funct
+0900: ion(){google.xjs={ck:'',cs:'',excm:[]};})();</script>  <script n
+0940: once="62Un+AmiaTd+sghVc/LDLA==">(function(){var u='/xjs/_/js/k\x
+0980: 3dxjs.hp.en.cvmykSCjNuQ.O/am\x3dAPgEmA/d\x3d1/ed\x3d1/rs\x3dACT9
+09c0: 0oFn9TVcgd42PzKMaBnp2d9L_zQEog/m\x3dsb_he,d';.var e=this||self,f
+0a00: =function(a){return a};var g;var l=function(a,b){this.g=b===h?a:
+0a40: ""};l.prototype.toString=function(){return this.g+""};var h={};f
+0a80: unction m(){var a=u;google.lx=function(){n(a);google.lx=function
+0ac0: (){}};google.bx||google.lx()}.function n(a){google.timers&&googl
+0b00: e.timers.load&&google.tick&&google.tick("load","xjsls");var b=do
+0b40: cument;var c="SCRIPT";"application/xhtml+xml"===b.contentType&&(
+0b80: c=c.toLowerCase());c=b.createElement(c);if(void 0===g){b=null;va
+0bc0: r k=e.trustedTypes;if(k&&k.createPolicy){try{b=k.createPolicy("g
+0c00: oog#html",{createHTML:f,createScript:f,createScriptURL:f})}catch
+0c40: (p){e.console&&e.console.error(p.message)}g=b}else g=b}a=(b=g)?b
+0c80: .createScriptURL(a):a;a=new l(a,h);c.src=a instanceof l&&a.const
+0cc0: ructor===l?a.g:"type_error:TrustedResourceUrl";var d;a=(c.ownerD
+0d00: ocument&&c.ownerDocument.defaultView||window).document;(d=(a=nul
+0d40: l===(d=a.querySelector)||void 0===d?void 0:d.call(a,"script[nonc
+0d80: e]"))?a.nonce||a.getAttribute("nonce")||"":"")&&c.setAttribute("
+0dc0: nonce",d);document.body.appendChild(c);google.psa=!0};setTimeout
+0e00: (function(){m()},0);})();(function(){window.google.xjsu='/xjs/_/
+0e40: js/k\x3dxjs.hp.en.cvmykSCjNuQ.O/am\x3dAPgEmA/d\x3d1/ed\x3d1/rs\x
+0e80: 3dACT90oFn9TVcgd42PzKMaBnp2d9L_zQEog/m\x3dsb_he,d';})();function
+0ec0:  _DumpException(e){throw e;}.function _F_installCss(c){}.(functi
+0f00: on(){google.jl={attn:false,blt:'none',chnk:0,dw:false,emtn:0,end
+0f40: :0,ine:false,lls:'default',pdt:0,rep:0,sif:true,snet:true,strt:0
+0f80: ,ubm:false,uwp:true};})();(function(){var pmc='{\x22d\x22:{},\x2
+0fc0: 2sb_he\x22:{\x22agen\x22:true,\x22cgen\x22:true,\x22client\x22:\
+<= Recv data, 943 bytes (0x3af)
+0000: x22heirloom-hp\x22,\x22dh\x22:true,\x22dhqt\x22:true,\x22ds\x22:
+0040: \x22\x22,\x22ffql\x22:\x22en\x22,\x22fl\x22:true,\x22host\x22:\x
+0080: 22google.com\x22,\x22isbh\x22:28,\x22jsonp\x22:true,\x22msgs\x22
+00c0: :{\x22cibl\x22:\x22Clear Search\x22,\x22dym\x22:\x22Did you mean
+0100: :\x22,\x22lcky\x22:\x22I\\u0026#39;m Feeling Lucky\x22,\x22lml\x
+0140: 22:\x22Learn more\x22,\x22oskt\x22:\x22Input tools\x22,\x22psrc\
+0180: x22:\x22This search was removed from your \\u00
+01b1: 1f2
+01b6: 3Ca href\x3d\\\x22/history\\\x22\\u003EWeb History\\u003C/a\\u00
+01f6: 3E\x22,\x22psrl\x22:\x22Remove\x22,\x22sbit\x22:\x22Search by im
+0236: age\x22,\x22srch\x22:\x22Google Search\x22},\x22ovr\x22:{},\x22p
+0276: q\x22:\x22\x22,\x22refpd\x22:true,\x22rfs\x22:[],\x22sbas\x22:\x
+02b6: 220 3px 8px 0 rgba(0,0,0,0.2),0 0 0 1px rgba(0,0,0,0.08)\x22,\x2
+02f6: 2sbpl\x22:16,\x22sbpr\x22:16,\x22scd\x22:10,\x22stok\x22:\x22AcU
+0336: zg8QJyEYEbymyP41iDKVwKHw\x22,\x22uhde\x22:false}}';google.pmc=JS
+0376: ON.parse(pmc);})();</script>        </body></html>
+03aa: 0
+03ad: 
+== Info: Connection #0 to host www.google.com left intact

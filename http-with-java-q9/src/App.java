@@ -94,14 +94,14 @@ public class App {
       }
 
       System.out.println(urlConnection2.getResponseMessage());
-      System.out.println("Response status-line for POST: " + urlConnection2.getResponseCode());
+      System.out.println("Response status-line for PUT: " + urlConnection2.getResponseCode());
 
       /* DELETE REQUEST */
       URL urlDelete = new URL("http://localhost:3000/posts/2");
       HttpURLConnection urlConnection3 = (HttpURLConnection) urlDelete.openConnection();
       urlConnection3.setRequestMethod("DELETE");
       System.out.println(urlConnection3.getResponseMessage());
-      System.out.println("Response status-line for POST: " + urlConnection3.getResponseCode());
+      System.out.println("Response status-line for DELETE: " + urlConnection3.getResponseCode());
 
     } catch (MalformedURLException e) {
       e.printStackTrace();
